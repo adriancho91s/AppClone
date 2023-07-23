@@ -10,7 +10,11 @@ const PORT = process.env.PORT || 5000;
 //Settings
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(cors());
+//accept requests from other origins with cors
+app.use(cors({
+    origin: 'http://localhost:5173'
+}));
+
 
 app.post("/send", (req, res) => {
   const { username, password } = req.body;
