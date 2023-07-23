@@ -1,0 +1,22 @@
+{
+  "name": "app-clone",
+  "version": "1.0.0",
+  "description": "Aplicación para clonar login de AppUTP",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriancho91s/AppClone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.4"
+  }
+}
